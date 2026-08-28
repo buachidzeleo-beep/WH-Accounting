@@ -24,9 +24,9 @@ with st.expander("ℹ️ ოპერაციის ასოები (ივ�
     )
 
 c1, c2, c3 = st.columns(3)
-daily_up = c1.file_uploader("1️⃣ ყოველდღიური ფაილი (1C, ასოებით)", type=["xls", "xlsx"])
-stock_up = c2.file_uploader("2️⃣ სააღრიცხვო ფაილი (ნაშთები + ჟურნალი)", type=["xlsx"])
-export_up = c3.file_uploader("3️⃣ 1C ნაშთები — შედარებისთვის (არასავალდებულო)", type=["xls", "xlsx"])
+daily_up = c1.file_uploader("1️⃣ თეოს ფაილი", type=["xls", "xlsx"])
+stock_up = c2.file_uploader("2️⃣ ბაგრათის ფაილი (ნაშთები + ჟურნალი)", type=["xlsx"])
+export_up = c3.file_uploader("3️⃣ მაუხრანის ფაილი", type=["xls", "xlsx"])
 
 if not stock_up:
     st.info("გასაგრძელებლად ატვირთეთ სააღრიცხვო ფაილი (და ყოველდღიური ფაილი, თუ დღის დაწერა გინდათ).")
